@@ -1,0 +1,674 @@
+@font-face {
+	font-family: 'Merriweather';
+	src: url("ttf/Merriweather-Regular.ttf") format("truetype");
+	font-weight: 400;
+}
+
+/*Насыщенность: 300, стиль: нормальный*/
+@font-face {
+	font-family: 'open sans';
+	src: url("ttf/OpenSans-Light.ttf") format("truetype");
+	font-weight: 300;
+}
+/*Насыщенность: 300, стиль: курсивный*/
+@font-face {
+	font-family: 'open sans';
+	src: url("ttf/OpenSans-LightItalic.ttf") format("truetype");
+	font-weight: 300;
+	font-style: italic;
+}
+/*Насыщенность: 400, стиль: нормальный*/
+@font-face {
+	font-family: 'open sans';
+	src: url("ttf/OpenSans-Regular.ttf") format("truetype");
+}
+/*Насыщенность: 400, стиль: курсивный*/
+@font-face {
+	font-family: 'open sans';
+	src: url("ttf/OpenSans-Italic.ttf") format("truetype");
+	font-style: italic;
+}
+/*Насыщенность: 500, стиль: нормальный*/
+@font-face {
+	font-family: 'open sans';
+	src: url("ttf/OpenSans-SemiBold.ttf") format("truetype");
+	font-weight: 500;
+}
+/*Насыщенность: 500, стиль: курсивный*/
+@font-face {
+	font-family: 'open sans';
+	src: url("ttf/OpenSans-SemiBoldItalic.ttf") format("truetype");
+	font-weight: 500;
+	font-style: italic;
+}
+/*Насыщенность: 600, стиль: нормальный*/
+@font-face {
+	font-family: 'open sans';
+	src: url("ttf/OpenSans-Bold.ttf") format("truetype");
+	font-weight: 600;
+}
+/*Насыщенность: 600, стиль: курсивный*/
+@font-face {
+	font-family: 'open sans';
+	src: url("ttf/OpenSans-BoldItalic.ttf") format("truetype");
+	font-weight: 600;
+	font-style: italic;
+}
+/*Насыщенность: 700, стиль: нормальный*/
+@font-face {
+	font-family: 'open sans';
+	src: url("ttf/OpenSans-ExtraBold.ttf") format("truetype");
+	font-weight: 700;
+}
+/*Насыщенность: 700, стиль: курсивный*/
+@font-face {
+	font-family: 'open sans';
+	src: url("ttf/OpenSans-ExtraBoldItalic.ttf") format("truetype");
+	font-weight: 700;
+	font-style: italic;
+}
+
+*{
+	margin: 0;
+}
+header{
+	position: fixed;
+	background-color: #fff;
+	height: 100px;
+	width: 100%;
+	z-index:5;
+}
+
+#line{
+	padding: 10px 0px 6px 37px;
+	background-color: #113F67;
+	color: #fff;
+	height: 27px;
+	font-family: "open sans";
+}
+
+#line1{
+	display: inline;
+	margin: 0 100% 0 0;
+	text-decoration: none;
+	color: #fff;
+}
+
+#line2{
+	margin:0 -600px;
+	display: inline;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+#head{
+	display: inline-flex;
+	background-color: #fff;
+	height: 90px;
+	padding: 0 20px 0 40px;
+	width: 100%;
+	font-family: "open sans";
+}
+
+#logo{
+	display: inline-flex;
+	font-size: 40px;
+	font-weight: 600;
+	font-family:serif;
+	min-width:150px;
+	margin-right: 100%; 
+}
+
+#logo1{
+	position: fixed;
+	margin-top: 5px;
+	color: #113F67;
+	font-family: serif;
+}
+
+#logo2{
+	position: fixed;
+	margin: 44px 0 0 68px;
+	background-color: #D20004;
+	color: #fff;
+	font-size: 30px;
+	font-family: serif;
+}
+
+#nav{
+	display: inline-flex;
+	margin-left: -1245px;
+	font-size: 22px;
+}
+
+#nav1{
+	background-color: #0F4C81;
+	color: #fff;
+	padding: 28px 18px 0;
+	text-decoration: none;
+}
+#nav1 div{
+	position: relative;
+	top:27px;
+	left:-18px;
+	height: 5px;
+	width: 159%;
+	background-color: #f00;
+}
+
+#nav2{
+	padding: 28px 18px 0;
+	text-decoration: none;
+	height: 62px;
+	color: #113F67;  
+}
+
+#nav2:hover{
+	background-color: #F3F3F6;
+}
+
+#main{
+	padding-top:133px;
+	background-color: #FFF;
+	height: 1500px;
+}
+
+#img1{
+	background-size: 100%;
+	background-image: url(img/bg.png);
+	background-repeat:no-repeat;
+	padding-top:36.28%;
+	padding-left: 6%;
+	display: block;
+}
+#imgadd{
+	background-color: #0F4C81;
+	width: 357px;
+	vertical-align: middle;
+	padding: 32px 0 48px 48px;
+	margin-top: -305px;
+	height: auto;
+	font-size: 60px;
+	font-family: Merriweather;
+	color: #fff;
+}
+#imgadd2{
+	background-color: #f00;
+	height: 40px;
+	width: 405px;
+	margin-top: -40px;
+}
+
+#About, #Progs, #School, #Extended, #Teachers, #Cost, #Request{
+	text-align: center;
+	padding: 72px 25px;
+	font-size: 56px;
+	font-family: Merriweather;
+}
+#About, #School, #Teachers, #Request{
+	background-color: #F3F3F6;
+	color: #000;
+}
+#Progs, #Extended, #Cost{
+	background-color: #10335E;
+	color: #fff;
+}
+
+#AboutBlock{
+	display: inline-block;
+	height: 250px;
+	width: 390px;
+	font-size: 20px;
+	font-family: "open sans";
+	margin: 80px 32px 0 32px;
+}
+#AboutBlock1, #AboutBlock2, #AboutBlock3, #AboutBlock4, #AboutBlock5{
+	display: inline-block;
+	border-radius: 150px;
+	background-color: #f00;
+	height: 150px;
+	width: 150px;
+}
+#AboutBlock1, #AboutBlock2,#AboutBlock3,#AboutBlock4,#AboutBlock5{
+	background-image: url(img/bg.png);
+	background-size: 100%;
+  	transition-duration: 3s;
+}
+
+#AboutBlock1:hover, #AboutBlock2:hover, #AboutBlock3:hover, #AboutBlock4:hover, #AboutBlock5:hover{
+	height: 250px;
+	width: 250px;
+  	transition-duration: 3s;
+}
+
+#Progs{
+	background-image:url("img/Rectangle 1 (2).png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#ProgsBlock{
+	background-color: #fff;
+	color: #000;
+	font-size: 36px;
+	width: 920px;
+	border-radius: 3px;
+	display: inline-block;
+	text-align: left;
+	padding: 36px 33px 33px 33px;
+	margin-top: 10px;
+}
+#ShowButton{
+	height: 50px;
+	width: 50px;
+	background-color: #ffF;
+	position: sticky;
+	left: 100%;
+	margin-top: -45px;
+	border-radius: 50px;
+	border: 1px solid grey;
+	background-image: url(img/2.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#Hidden{
+	display: none;
+	font-size: 24px;
+	font-family: "open sans";
+	color: #6B6B6E;
+}
+#HiddenCaption{
+	display: inline-block;
+	margin-left: 30px;
+}
+#Extended{
+	background-image:url("img/Rectangle 1.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#TeachersBlock{
+	display: inline-block;
+	height: 250px;
+	width: 390px;
+	font-size: 28px;
+	font-family: "Merriweather";
+	margin: 80px 32px 0 32px;
+}
+#TeachersImg1, #TeachersImg2, #TeachersImg3, #TeachersImg4, #TeachersImg5{
+	display: inline-block;
+	border-radius: 150px;
+	background-color: #f00;
+	height: 150px;
+	width: 150px;
+}
+#TeachersImg2, #TeachersImg3, #TeachersImg4, #TeachersImg5, #TeachersImg1{
+	background-image: url(img/bg.png);
+	background-size: 100%;
+  	transition-duration: 3s;
+}
+#TeachersImg1:hover, #TeachersImg2:hover, #TeachersImg3:hover, #TeachersImg4:hover, #TeachersImg5:hover{
+	height: 250px;
+	width: 250px;
+  	transition-duration: 3s;
+}
+#Cost{
+	background-image:url("img/123.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#CostBlock{
+	background-color: #fff;
+	color: #000;
+	font-size: 32px;
+	width: 920px;
+	border-radius: 3px;
+	display: inline-block;
+	text-align: left;
+	padding: 33px;
+	margin-top: 10px;
+
+}
+#CostMuch{
+	position: absolute;
+	margin: -40px 0 10px 800px;
+	color: #113F67;
+}
+#CostInf{
+	color: #6B6B6E;
+	font-size: 22px;
+	font-family: "open sans";
+}
+#CostMonth{
+	position: absolute;
+	margin: -30px 0 0 790px;
+	color: #6B6B6E;
+	font-size: 22px;
+	font-family: "open sans";
+}
+#CostInf a{
+	text-decoration-style: dotted; 
+}
+
+#RequestInf{
+	color: #6B6B6E;
+	font-size: 22px;
+	font-family: "open sans";
+}
+#RequestInput{
+	width: 360px;
+	height: 30px;
+	resize:none;
+	color: #6B6B6E;
+	font-size: 22px;
+	font-family: "open sans";
+	padding: 16px;
+}
+#RequestSign{
+	width: 157px;
+	height:56px;
+	font-size: 22px;
+	background-color: #0F4C81;
+	color: #fff;
+	font-family: "open sans";
+	padding: 20px 16px 0 16px;
+	text-align: center;
+	display: inline-block;
+	border-radius: 5px;
+	text-decoration: none;
+}
+#RequestSign:hover{
+	background-color: #f00; 
+}
+#RequestSignLine{
+	width: 189px;
+	height: 10px;
+	background-color: #f00;
+	margin: 16px 0 0 -16px;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+}
+
+#ContactsText{
+	width: 42%;
+	background-color: #fff;
+	height: 600px;
+	padding: 72px 4%;
+	font-size: 72px;
+	font-family: Merriweather;
+	display: inline-block;
+}
+#ContactsText1{
+	color: #6B6B6E;
+	font-size: 22px;
+	font-family: "open sans";
+}
+#ContactsText2{
+	font-size: 32px;
+	font-family: "Merriweather";
+	margin: 32px 0;
+}
+#Map{
+	display: inline-block;
+}
+
+@media screen and (min-width: 1230px){}
+@media screen and (min-width: 980px) and (max-width: 1230px)
+{
+	#ProgsBlock{
+		font-size: 40%;
+		width: 70%;
+	}
+	#CostBlock{
+		font-size: 40%;
+		width: 70%;
+	}
+	#CostMuch{
+		margin-left: 57%;
+	}
+	#CostMonth{
+		margin-left: 53%;
+	}
+
+	#nav{
+		font-size: 15px;
+		margin-left: -1000px;
+		height: 40px;
+	}
+	#nav2, #nav1{
+		font-size: 15px;
+		height: 32px;
+	}
+
+	#nav1, #nav2{
+		padding-top: 5px;
+	}
+	#nav1 div{
+		width:189%;
+		top: 7px;
+	}	
+
+	header{
+		height: 65px;
+	}
+	#head{
+		height: 36px;
+	}
+	#logo{
+		transform: scale(0.5);
+		margin-top: -15px;
+	}
+	#line{
+		font-size: 80%;
+		height: 17px;
+		padding-top: 5px;
+	}
+	#line2{
+		margin-left: -460px;
+	}
+	#main {
+    	padding-top: 65px;
+    }
+}
+@media screen and (min-width: 700px) and (max-width: 980px){
+	#head{
+		min-width: 960px;
+		overflow-x: scroll;
+		white-space:nowrap;
+   	 	overflow: overlay;
+   	 	display: inline-block;
+   	 	height: 55px;
+   	 	padding-left: 0;
+	}
+	#ProgsBlock{
+		font-size: 40%;
+		width: 70%;
+	}
+	#CostBlock{
+		font-size: 30%;
+		width: 80%;
+	}
+	#CostMuch{
+		margin-left: 61%;
+		margin-top: -20px;
+	}
+	#CostMonth{
+		margin-left: 60%;
+		font-size: 110%;
+		margin-top: -12px;
+	}
+	#CostInf{
+		font-size: 70%;
+	}
+
+	#nav{
+		font-size: 15px;
+		margin-left: -1000px;
+		height: 40px;
+	}
+	#nav2, #nav1{
+		font-size: 15px;
+		height: 32px;
+	}
+
+	#nav1, #nav2{
+		padding-top: 5px;
+	}
+	#nav1 div{
+		width:188%;
+		top: 7px;
+	}	
+
+	header{
+		height: 35px;
+	}
+	
+	#logo{
+		transform: scale(0.5);
+		margin-top: -15px;
+	}
+	#logo1{
+		position: inherit;
+	}
+	#line{
+		font-size: 80%;
+		height: 17px;
+		padding-top: 5px;
+	}
+	#line2{
+		margin-left: -460px;
+	}
+	#main {
+    	padding-top: 65px;
+    }
+    #img1{
+    }
+    #imgadd{
+    	font-size: 140%;
+    	margin-top: -113px;
+    	width: 24%;
+    	height: 50px;
+    	padding-top: 15px;
+    	padding-left: 10px;
+
+    }
+    #imgadd2{
+    	width: 24%;
+    	height: 10px;
+    	margin-top: -10px;
+    	padding-left: 10px;
+    }
+    #AboutBlock, #TeachersBlock{
+    	transform: scale(1.3);
+    	margin-top: 150px;
+    }
+
+}
+@media screen and (min-width: 0px) and (max-width: 700px)
+{
+	#head{
+		min-width: 960px;
+		overflow-x: scroll;
+		white-space:nowrap;
+   	 	overflow: overlay;
+   	 	display: inline-block;
+   	 	height: 55px;
+   	 	padding-left: 0;
+	}
+	#ProgsBlock{
+		font-size: 40%;
+		width: 70%;
+	}
+	#CostBlock{
+		font-size: 30%;
+		width: 80%;
+	}
+	#CostMuch{
+		margin-left: 61%;
+		margin-top: -20px;
+	}
+	#CostMonth{
+		margin-left: 60%;
+		font-size: 110%;
+		margin-top: -12px;
+	}
+	#CostInf{
+		font-size: 70%;
+	}
+
+	#nav{
+		font-size: 15px;
+		margin-left: -1000px;
+		height: 40px;
+	}
+	#nav2, #nav1{
+		font-size: 15px;
+		height: 32px;
+	}
+
+	#nav1, #nav2{
+		padding-top: 5px;
+	}
+	#nav1 div{
+		width:188%;
+		top: 7px;
+	}	
+
+	header{
+		height: 30px;
+	}
+	
+	#logo{
+		transform: scale(0.5);
+		margin-top: -15px;
+	}
+	#logo1{
+		position: inherit;
+	}
+	#line{
+		font-size: 60%;
+		height: 17px;
+		padding-top: 5px;
+		padding-left: 5px;
+	}
+	#line1{		
+		margin: -3px 0 0 0;
+	}
+	#line2{
+		margin: -3px 0 0 0;
+		display: block;
+	}
+	#main {
+    	padding-top: 65px;
+    }
+    #img1{
+    }
+    #imgadd{
+    	font-size: 80%;
+    	margin-top: -98px;
+    	width: 17%;
+    	height: 35px;
+    	padding-top: 15px;
+    	padding-left: 10px;
+
+    }
+    #imgadd2{
+    	width: 17%;
+    	height: 10px;
+    	margin-top: -10px;
+    	padding-left: 10px;
+    }
+    #AboutBlock, #TeachersBlock{
+    	transform: scale(0.8);
+    	margin-top: 60px;
+    }
+    #About{
+    	padding-left: 0;
+    }
+    #Extended, #Progs,#School{
+    	font-size: 240%;
+    }
+    #ymaps1621178317258801013{
+    	width: 360px;
+    	height: 360px;
+    }
+}
