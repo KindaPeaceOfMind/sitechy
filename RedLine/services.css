@@ -1,0 +1,75 @@
+.trigger{
+    cursor: pointer;
+}
+h2{
+    background-color: #fff;
+    box-shadow: inset 3px -3px 0px 0px #e2001a;
+    padding: 10px;
+    border-radius: 17px;
+}
+.block{
+    padding: 10px;
+}
+h3{
+    margin-top: 17px;
+    padding: 17px;
+    border-top: dotted 5px #00ceff99;
+}
+.width50{
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 100px;
+    border-radius: 10px;
+    text-align: center;
+    border: 5px ridge;
+    margin-bottom: 10px;
+}
+.width50 *{
+    align-items: center;
+}
+.width75{
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 15px 30px;
+}
+.body{
+    background: #ffffffc9;
+}
+.width25{
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 15px 30px;
+    box-shadow: 0px 0px 6px 0px #e2001a;
+    display: none;
+    position: fixed;
+}
+.block14zakaz{
+    display: flex;
+}
+.btn3{
+    text-decoration: underline #00ceff99;
+    color: #00ceff;
+    cursor: help;
+}
+.descriptionDarkBG{
+    width: 100vw;
+    height: 100vh;
+    background-color: #00000099;
+    position: fixed;
+    top:0;
+    left:0;
+    display: none;
+}
+.descriptionDarkBGbody{
+    margin: 20vh;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 15px 30px;
+    box-shadow: 0px 0px 6px 0px #e2001a;
+}
+#description{
+    height: auto;
+    width: 50%;
+}
