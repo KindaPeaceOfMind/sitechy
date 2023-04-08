@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<head></head>
+<body>
+
+<script>
+    let source = new EventSource('/index.php');
+    source.onmessage = function (event) {
+        var data = event.data;
+        console.log(data);
+        document.write(data+'<br>');
+    }
+    </script>
+
+</body>
