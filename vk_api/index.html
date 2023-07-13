@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VKRequestConstructor</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+<div class="body">
+    <div class="block">
+        <div class="methods">
+            <select class="methods_select">
+                <option selected=""> CHOOSE METHOD</option>
+                <option> users.get </option>
+                <option> groups.getById </option>
+                <option> groups.getMembers </option>
+                <option> wall.get </option>
+                <option> wall.search </option>
+            </select>
+            <button class="send_button" onclick="SendRequest()">Send</button>
+            <textarea class="output1"></textarea>
+        </div>
+        <div class="params"></div>
+        <div class="fields"></div>
+    </div>
+    <div class="block">
+        <select class="sort_select" onchange="SortOutput(this)"></select>
+        <div>
+            <textarea class="output2"></textarea>
+        </div>
+        <div>
+            <button hidden class="open_photo_button" onclick="openPhoto()">Open photo</button>
+            <button hidden class="download_photo_button" onclick="downloadPhoto()">Download photo</button>
+        </div>
+    </div>
+</div>
+<script src="js.js"></script>
+
+<script src="onlineWatcher.js"></script>
+</body>
+
+</html>

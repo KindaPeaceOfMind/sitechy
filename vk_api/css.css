@@ -1,0 +1,106 @@
+*{margin: 0;}
+body{
+    height: 100vh;
+}
+.body{
+    display: flex;
+    background-color: rgb(46, 62, 56);
+    height: 100vh;
+    flex-direction: column;
+    overflow: auto;
+}
+.block{
+    display: flex;
+}
+.methods{
+    width: 400px;
+    height: 50vh;
+    padding: 4px;
+    margin: 5px;
+    border: 1px solid rgb(173, 167, 255);
+    background-color: rgb(193, 255, 234);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+.methods_select{
+    padding: 4px;
+    margin: 5px;
+    border: 1px solid rgb(173, 167, 255);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.param{
+    height: fit-content;
+    padding: 4px;
+    margin: 3px;
+    border: 1px solid rgb(173, 167, 255);
+    background-color: rgb(193, 255, 234);
+    border-radius: 10px;
+    display: inline-block;
+}
+.line{
+    background-color: darkslategray;
+    border-radius: 10px;
+    padding: 3px;
+    margin: 5px;
+    border: 1px solid #c1ffea;
+}
+.params{
+    height: 50vh;
+    overflow: auto;
+    width: 400px;
+    padding-bottom: 15px;
+}
+.fields{
+    width: 400px;
+    height: 50vh;
+    overflow: auto;
+    padding: 4px;
+    margin: 5px;
+    border: 1px solid rgb(173, 167, 255);
+    background-color: rgb(238, 238, 238);
+    border-radius: 10px;
+}
+.field{
+    padding: 4px;
+    margin: 3px;
+    border: 1px solid rgb(173, 167, 255);
+    background-color: rgb(193, 255, 234);
+    border-radius: 10px;
+    display: inline-block;
+}
+.send_button{
+    height: 7vh;
+    margin: 10px;
+    margin-left: 20px;
+    max-width: calc(100% - 50px);
+    border-radius: 10px;
+    background-color: darkslategray;
+    color: rgb(193, 255, 234);
+    font-size: 5vh;
+}
+.output1{
+    height: inherit;
+    max-width: calc(100% - 50px);
+    margin:20px
+}
+button{
+    background-color: darkslategray;
+    color: #8dffff;
+    font-size: inherit;
+    border-radius: 15px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.watcher_block{
+    padding: 4px;
+    margin: 5px;
+    border: 1px solid rgb(173, 167, 255);
+    background-color: rgb(193, 255, 234);
+    border-radius: 10px;
+    display: flex;
+    overflow: auto;
+    width: min-content;
+}
